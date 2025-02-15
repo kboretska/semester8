@@ -13,7 +13,6 @@ def hamming_distance(a, b):
 # Початкове повідомлення (20 біт з помилками)
 bit_stream = "01001100111001011010"
 
-# Друкуємо таблицю кодування
 print("Таблиця 2B5B:")
 for two_bits, code_word in code_2b5b.items():
     print(f"{two_bits} -> {code_word}")
